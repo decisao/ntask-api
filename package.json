@@ -7,8 +7,7 @@
     "node": "5.x"
   },
   "scripts": {
-    "start": "npm run apidoc && npm run clusters",
-    "clusters": "babel-node clusters.js",
+    "start": "npm run apidoc && npm run index.js",
     "test": "NODE_ENV=test mocha test/**/*.js",
     "apidoc": "apidoc -i routes -o public/apidoc"
   },
