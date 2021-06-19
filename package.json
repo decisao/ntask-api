@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "API de gestão de tarefas",
   "main": "index.js",
+    "engines": {
+    "node": "5.x"
+  },
   "scripts": {
     "start": "npm run apidoc && npm run clusters",
     "clusters": "babel-node clusters.js",
